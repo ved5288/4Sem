@@ -1,0 +1,156 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+//#include "FFT.h"
+//#include "AllocateMemory.h"
+#define pi 3.1415926535898
+# define cabs(b) ((double)sqrt((double)(b.re*b.re+b.im*b.im)))
+
+void create_sample(double *x, int N, double A, double f, double R)
+{
+/*
+samples the signal x(t)=Asin(2*pi*f*t)
+
+signal to be sampled to x[i]
+N is the length
+A is the amplitude of the sine function
+f is the frequency of the sine function
+R is the sampling rate.
+*/
+
+	int i;
+	for(i=1;i<=N;i++)
+		x[i]=A*sin(2*pi*f*(i/R));
+}
+
+double find_frequency(double* x, int N, double R)
+{
+// finds the frequency using zero_crossings
+	int i;
+	int zero_crossings=0;
+	for(i=1;i<N;i++)
+		if(x[i]*x[i+1]<0 || x[i]==0)
+			zero_crossings++;
+	if(x[N]==0)
+		zero_crossings++;
+	double frequency;
+	frequency=((double)zero_crossings)*(R/N)/2;
+	return frequency;
+}
+
+void print_to_file(double * x, int N, char* file)
+{
+int i;
+FILE * fp=fopen(file,"w");
+for(i=1;i<=N;i++)
+	fprintf(fp,"%lf\n",x[i]);
+fclose(fp);
+}
+
+double find_peak_in_fourier(int N, char* file,int R)
+{
+FILE * fp=fopen(file,"r");
+int i;
+double a,max;
+fscanf(fp,"%lf",&a);
+max=a;
+for(i=2;i<=N;i++)
+{
+fscanf(fp,"%lf",&a);
+if(a<max)
+	break;
+max=a;
+}
+return (double)(i-1)*R/N;
+}
+
+int main(int argc, char* argv[])
+{
+int N=1024;
+double R=30000.0;
+double *x1 = malloc((N+1)*sizeof(double));
+double *x2 = malloc((N+1)*sizeof(double));
+double *sum = malloc((N+1)*sizeof(double));
+double *convolves = malloc((2*N+1)*sizeof(double));
+
+/* 1a */
+int i,j;
+create_sample(x1,N,2.0, 450.0,R);
+create_sample(x2,N,2.3, 750.0,R);
+print_to_file(x1,N,"sample1.txt");
+print_to_file(x2,N,"sample2.txt");
+
+int no_of_trials = 20000;
+double* error = malloc((no_of_trials+1)*sizeof(double));
+double rate,freq,sum1=0,sum2=0;
+
+for(i=1;i<=no_of_trials;i++)
+{
+	rate = 50+i;
+	create_sample(x1,N,2.0,750.0,rate);
+	freq = find_frequency(x1,N,rate);
+	//print_to_file(x1,N,"random.txt");
+	error[i]=fabs(freq-750.0);
+}
+print_to_file(error,no_of_trials,"error.txt");
+
+/* 1b */
+freq=find_peak_in_fourier(N,"fft_sample1.txt",R);
+printf("error1 (frequency using FFT) = %lf which is %lf%\n",(double)fabs(freq-450.0),(double)(fabs(freq-450.0)/450.0)*100.0);
+freq=find_peak_in_fourier(N,"fft_sample2.txt",R);
+printf("error2 (frequency using FFT) = %lf which is %lf%\n",(double)fabs(freq-750.0),(double)(fabs(freq-750.0)/750.0)*100.0);
+
+/* 2a */ 
+FILE *ip1,*ip2;
+ip1=fopen("sample1.txt","r");
+ip2=fopen("sample2.txt","r");
+for(i=1;i<=N;i++)
+{
+	fscanf(ip1,"%lf",&x1[i]);
+	fscanf(ip2,"%lf",&x2[i]);
+	sum[i]=x1[i]+x2[i];
+}
+fclose(ip1);
+fclose(ip2);
+print_to_file(sum,N,"add.txt");
+
+/* 2b */
+ip1=fopen("sample1.txt","r");
+ip2=fopen("sample2.txt","r");
+for(i=1;i<=N;i++)
+{
+	fscanf(ip1,"%lf",&x1[i]);
+	fscanf(ip2,"%lf",&x2[i]);
+	convolves[i]=0;
+	convolves[N+i]=0;
+}
+for(i=1;i<=N;i++)
+for(j=1;j<=N;j++)
+convolves[i+j]+=x1[i]*x2[j];
+print_to_file(convolves,2*N,"convolve.txt");
+
+/* Check Parseval's */
+ip1=fopen("sample1.txt","r");
+ip2=fopen("fft_sample1.txt","r");
+for(i=1;i<=N;i++)
+{
+	fscanf(ip1,"%lf",&x1[i]);
+	fscanf(ip2,"%lf",&x2[i]);
+	sum1+=x1[i]*x1[i];
+	sum2+=x2[i]*x2[i];	
+}
+printf("Sum of squares of sampled values of signal = %lf\nSum of squares of sampled values of tranformed signal = %lf\nRatio = %lf\n",sum1,sum2,sum2/sum1);
+
+/* Multiplication */
+ip1=fopen("fft_sample1.txt","r");
+ip2=fopen("fft_sample2.txt","r");
+for(i=1;i<=N;i++)
+{
+	fscanf(ip1,"%lf",&x1[i]);
+	fscanf(ip2,"%lf",&x2[i]);
+	sum[i]=x1[i]*x2[i];	
+}
+print_to_file(sum,N,"multiplication.txt");
+
+return 0;
+}

@@ -1,0 +1,465 @@
+
+*___________________________________________________________________*
+|                                        |                          |
+|  ###  #   # #####   The USEnet Edition | ISSUE #33                |
+| #     ## ##    #  .                    |                          |
+| # ##  # # #    #                       | October 24 - November 5  |
+| #   # #   #    #  .    "d70 format"    |                          |
+| #   # #   # #  #                       |                          |
+|  ###  #   #  ##                        |                          |
+|___________________________________________________________________|
+*                                                                   *
+
+
+All of the moves! All of the characters! All of the dirt,ONLY in GMJ!
+
++===================================================================+
+|#     ##### ##### ##### ##### ####   F       ###  #   # #####      |
+|#     #       #     #   #     #   #     T   #     ## ##    #       |
+|#     ###     #     #   ###   ####   R      # ##  # # #    # C     |
+|#     #       #     #   #     #  #      H   #   # #   # #  #  R    |
+|##### #####   #     #   ##### #   #  O       ###  #   #  ##    E   |
+|                                        E                       W  |
+|                                     M                             |
++===================================================================+
+** LETTER D70 ***
+
+Hello again fellow GMJ readers.  Lots going on right now here at GMJ.
+The first Electronic Print issue is finally out and we have been
+overwhelmed by the response.  For those of you who just can't afford
+the lengthy download, we have an extremely low price for a
+subscription offer.  Check out an ad this issue for all of the
+details.
+
+The main theme the last few weeks has to be the 3DO.  Panasonic
+released the $700 monster early November and it is taking off pretty
+well.  We had a chance to test this money vacuum out recently and we
+were pretty impressed.  Check out the Power Switch section this issue
+to get all of the hands on test details for the 3DO from the Game
+Masters.
+
+You Genesis players will be happy to hear that Mortal Kombat is the
+number one selling 16 bit title right now even topping the SNES
+version in sales for last month.  Why? I really don't know.  The SNES
+version is a much better translation.  I guess this just proves that
+MK's blood and gore is what makes it.
+
+You are really going to start to see expanded coverage starting this
+issue.  We are still playing around with the formats both Ansi and
+Electronic Print.  You probably noticed fact windows in our review
+section in issue #32 with a few new pieces of information like megs,
+who reviewed the game and average of reviews.  Adding to that, is our
+hyper text capsules which will be featured next to random reviews.
+These capsules will have game PREviews and tidbits of info.
+
+Don't expect to see GMJ every week anymore, we are changing to
+bi-weekly.  The reason is that we can put out a much higher quality
+issue in 2 weeks and we have reached a point where it is no longer
+necessary to come out weekly.  The Elec- tronic print version will
+stay monthly and will come out 12+ times per year.
+
+Those of you reading the Electronic Print version enjoyed some Super
+SFII art on our cover done by my sister...I'm sorry.  I really am.  I
+didn't want to do it, but Street Fighter is Street Fighter and I had
+to do it.  I promise there won't be eight SFII covers with in the next
+12 issues! While we are on the subject however, check out some
+exclusive Super Street Fighter coverage this issue: All the moves for
+every character! (and we even avoided listing those phunky character
+profiles.  You know, the ones that tell you how many hours of sleep
+Ryu gets before his hard training at the Dojo.)
+
+Hey everybody, before I let you read on, let me remind you to not buy
+any new systems until sometime in '95 when Nintendo will release their
+recently announced 64 Bit system (which by the way GMJ reported before
+ANYONE else) for under $250.....yeah right! Ok, so even if it is so
+great, and it is that inexpensive, why am I going to wait until 1995?
+Listen, if you are always waiting for the next best thing, you will
+never own anything.  I like Sega's approach.  Give us a system when
+it's ready, let us enjoy it, and release a new system when it's time.
+If I had listened to Nintendo last year trying to convince me not to
+buy a Sega CD because their more advanced CD would be here in early
+'93 and for less, I would be pretty pissed off right now.
+
+Well, that is it for now.  Enjoy our expanded coverage and additional
+sections.
+
+      -  Reny Falzarano  [Da Phunky Pheel One]
+
+
+*___________________________________________________________________*
+|                                                                   |
+|  #### #   # ####  ##### ####   %    % %%%%%  %%%%  R E V I E W S  |
+| #     #   # #   # #     #   #  %%   % %     %      R E V I E W S  |
+| ####  #   # #   # ##    #####  % %  % %%     %%%   R E V I E W S  |
+|     # #   # ####  #     # #    %  % % %         %  R E V I E W S  |
+| #   # #   # #     #     #  #   %   %% %     %   %  R E V I E W S  |
+|  ###   ###  #     ##### #   #  %    % %%%%%  %%%   R E V I E W S  |
+|___________________________________________________________________|
+*                                                                   *
+HEAD-TO-HEAD: One game reviewed on two or more platforms...!
++-------------------------------------------------------------------+
+|TITLE:         |PUBLISHER  |GAME TYPE: |SIZE: |GENESIS   70 \/     |
+| Zombies Ate   | Konami    | Adventure |08 MEG|*****%%%%%@@@@@#####|
+| My Neighbors  |           |           |      |SUPER NES 83    ^   |
+|---------------+-----------+-----------+------+--------------------|
+|MAIN REVIEW BY:                 OTHER REVIEWERS                    |
+|                                                                   |
+| The GMJ Crew            ---------- ** ---------- ** ---------- ** |
+|                                                                   |
++-------------------------------------------------------------------+
+
+Just like Mortal Kombat (but with less hype), Konami's Zombies Ate My
+Neighbors was released for the S-NES and Genesis on the same day, so
+we here at GMJ decided to run a comparison explaining the differences
+in each of the versions.  So sit back and relax, 'cause this is one
+wild ride.
+
+Both the S-Nes and Genesis versions share the same story-line; to stop
+the hordes of evil from capturing your local towns occupants.  You can
+choose to rush into action as either a guy that looks like a follower
+of Beavis and Butthead, or a pony tail wielding woman that might be
+the twin of Mindy from the tv show "Mork and Mindy".  A two player
+cooperative option is available so that you're not alone in this never
+ending fight to save your town.
+
+Zombies uses a "tongue in cheek" approach to killing the baddies,
+because the weapons you use include a water gun, weed whacker, fire
+extinguisher, apples, and other household goodies.  You fight in over
+forty levels of never ending mayhem, with some levels including a
+local mall, a school, and a maze of hedges.  The enemies in this game
+are too numerous to count because they all change according to the
+level your playing on.  This unique approach makes the game original,
+but there is no attention given to the progress of any story.  The
+only real goal is to "tag" the residents of the level before a bad guy
+kills them.  The residents are spread out all around the levels, and
+each level ends when all the people have either been saved or killed.
+
+
+S-NES version - 83
+
+The S-NES version and Genesis versions of Zombie both sport the same
+levels and the same graphics, but the S-NES uses music and sound a
+whole lot more effectively, and the control is be better on this one
+as well because of the more buttons used.  The title screen is the
+first sign that really shows the differences; the S-Nes version has
+the Zombies logo gradually morph into view, where the Genesis version
+has very little morphing.  The opening music and voices are also done
+better on the S-NES version.
+
+The play mechanics and control are a lot better on the S-NES version
+because it's full screen, while the Sega version has a two inch black
+bar running along the entire right side of the screen.  Just being
+able to see more of the screen adds to the S-NES Zombies, because you
+have more time to react to the oncoming enemies.  The graphics are
+also larger than those for the Sega version and playing them both
+right after each other really shows which is superior.
+
+Not only is the screen size a difference in the two Zombies, but the
+music, when compared to each other, is a total blowout with the
+S-NES's better sound capabilities destroying the Sega version.  Hooked
+up to a stereo system, the Zombies soundtrack booms with some house
+shaking bass and some of the better video game sounds on the market
+being used.  Real samples of screams and explosions were used to give
+a sense of realism to Zombies, while the rest of the game comes off as
+a B-movie style game with many cliches being used.
+
+Genesis version - 70
+
+The Sega version of Zombies and I got off to a bad start; I played
+Zombies on my S-NES and expected an almost identical version on the
+Sega.  I was wrong.  The programmers took a shotty approach in the
+making of the Sega version, and I was honestly disappointed with the
+whole game.  The two inch black bar is probably the thing that stands
+out most as an example of bad programming.  It takes up way to much
+room on the screen, and it's only use is to show the score, weapons
+left, and a mapping system which shows you where the citizens are; all
+of which was done on the regular screen for the S-NES.
+
+Bar aside, the graphics in this game are the same on both versions,
+with only a slight color loss on the Sega version being the
+difference.  Zombies is not compatible with the six button controller,
+which would have been ideal with this type of game.  Assigning
+multiple weapons to the top buttons could have added a lot to the game
+play.  In the area of sound, the Sega version lacks the same
+instrumental quality that the S-NES Zombies had, and the sound effects
+seemed to be shorter with a scratchy digitized sound that accompanied
+them.  I can understand how the music might be below the S-NES
+standards, but allowing the Genesis Zombies to be plagued by a huge
+bar really brought this game down.
+
+
+   Here's How They Stacked Up HEAD TO HEAD :
+
+Overall, the concept and ideas for Zombies showed a lot of originality
+on both versions, and the two player option adds a lot to the
+re-playability of this game.  But when put side to side, the S-NES
+version really outperforms the Sega Zombies in both playability and
+overall appearance.  Unlike Mortal Kombat where the Genesis version
+had the blood where the S-NES one didn't, the Sega Zombies has no
+superior qualities over it's S-NES counterpart, and people who are
+interested in buying this game will easily pick up a copy of the Super
+Nintendo version over the Sega Genesis version.
+
+
+ ___________________________________________________________________
+]^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[
+] Innovative Creations                                              [
+] 29 David Road             +--- +  + +--+ +--+ +--- +--  +--       [
+] South Carver, MA 02330    |-    ++  +--+ |-++ |-   +--+ +--+      [
+] (shubert@usc.edu)         +--- +  + |    |  \ +---  --+  --+      [
+] (ace@castle.com)                 |\ /| +--+ -+- |                 [
+]                                  |   | |--|  |  |      EXPRESS    [
+]                                  |   | |  | -+- +---     MAIL     [
+]___________________________________________________________________[
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Hello all of you GMJers.  If you want to write to us letting us know
+what you think of the new version, old version, how much you hate us
+or love us, or have any video game questions that you hope to be
+published, write to us at the addresses above.  We are trying to set
+up ID's for ALL of our writers on these boards, but until we do, just
+write to the ID's above.  Everyone sees every letter.  This edition of
+Express Mail, we only selected letters strictly magazine related since
+the theme seems to be our new version.  Since some of the questions
+were really good, we thought it would be a good and simple way to
+explain exactly how everything will work.  However, keep sending your
+game questions and other such mail because next issue will resume
+regular procedures...
+
+*** Slow baud? No problem.
+I was on Prodigy and I read some promotional letters from you guys
+about the graphic version of the magazine.  I assume it is a big file
+and I only have a 2400 modem.  Is there another way to get the new
+version?
+
+H. Cavelerio
+Westford, Ma
+
+{ Phunky: Just recently we decided to give away the magazine through
+{ the mail in addition to the downloads.  All you have to do is write
+{ us on any of our boards in which we read mail.  Give us your
+{ address and we will send you the print issues monthly.
+
+*** Win-dozer
+Why is your new version only for windows? I don't have windows and I
+have been with you guys almost the whole time! Now you exclude me?
+THANKS A LOT!
+
+Norman Lewis
+Boston, Ma
+
+{ Phunky:
+{ Hey Norm, CALM DOWN! We reconfigured the whole project.  At first it
+{ was only going to be for windows, but we found some better ways of
+{ doing the mag.  Now anyone with a PC can view our mag through DOS!
+
+*** But, you aren't EGM!
+GMJ rules, don't get me wrong.  But we need some overseas coverage.  I
+want to know what's coming, when it's coming and how much it's gonna
+be!
+
+Michael Watson
+Boston, Ma
+
+{ Phunky:
+{ Mike, I guess you will be a very happy camper as you read the
+{ upcoming issue of GMJ.  We are expanding into a full coverage
+{ magazine.  Look for upcoming game lists, Japanese news, sales and
+{ rental figures and a lot more!
+
+*** Recent fan wants pictures
+I've been a follower of your mag ever since issue #23, and I've seen
+great improvements in both the layout and overall quality of the
+reviews.  Your info is out months before the other published mags, so
+I really don't have a reason to buy them anymore.  The only problem I
+see is that you can't have pictures of the games online.  Other than
+that, GMJ is my favorite video gaming mag on and it's free!! Keep up
+the good work.
+
+Ben Croxford
+Boston, Ma
+
+{ Phunky:
+{ Well Ben, your prayers have been answered.  Starting this issue, we
+{ have a monthly Electronic Print version of the Game Master Journal.
+{ We have expanded coverage, full color pictures, a professional
+{ layout and anything else you would find in those other $5 mags,
+{ except we are free, and we will be offering even more than they
+{ will, including several things that just CAN'T be done with regular
+{ print versions.
+
+.....................................................................
+:WE are the only magazine that prints ALL EMAIL sent to us that is  :
+:not vulgar or obscene.  So.. send your videogame hints, tips + Q's!:
+:                                                                   :
+:#   # #####  #   #  ###  #   # #####  ##### #   #  ###  ##### #    :
+:#   # #      #   # #   # ##  #   #    #     ## ## #   #   #   #    :
+:#   # ###    #   # ##### # # #   #    ###   # # # #####   #   #    :
+:# # # #      # # # #   # #  ##   #    #     #   # #   #   #   #    :
+: # #  #####   # #  #   # #   #   #    ##### #   # #   # ##### #####:
+:                                           ........................:
+:shubert@usc.edu       VOICE: 213-743-1341  :                       :
+:    ace@castle.com    ExpressNET: 130@1    : ONE PERSON EACH ISSUE :
+:PHUNKY1@delphi.com       WWIVnet: 130@6754 : RECEIVES a 'GMJ PACK' :
+:                                           : FREE, ONLY FROM GMJ!! :
+:     Software Creations: Anthony Shubert   :                       :
+:...........................................:.......................:
+
+ ___________________________________________________________________
+|                                                                   |
+|  ###  ##### #   # #####  ###  #####  ###   R E V I E W S          |
+| #     #     ##  # #     #       #   #                             |
+| # ##  ###   # # # ###    ###    #    ###     R E V I E W S        |
+| #   # #     #  ## #         #   #       #                         |
+|  ###  ##### #   # ##### ####  ##### ####       R E V I E W S      |
+|___________________________________________________________________|
+
++-------------------------------------------------------------------+
+|TITLE:         |PUBLISHER  |GAME TYPE: |SIZE: | AVERAGE OF REVIEWS |
+| Street Fighter| Capcom    | Fighting  |24 MEG|0                 95|
+| 2: Special CE |           |           |      |*****%%%%%@@@@@####-|
+|---------------+-----------+-----------+------+--------------------|
+|MAIN REVIEW BY:                 OTHER REVIEWERS                    |
+|                                                                   |
+| Da Phunky   95          Instigator 95 Mr. Mojo   98 Anderson   95 |
+|                                                                   |
++-------------------------------------------------------------------+
+
+Hey SFII fans, it's renew your lease on your Genesis...AGAIN! Quite
+possibly one of the most amazing feats accomplished on the Genesis so
+far is the latest version of SFII from Capcom.  Every year, you think
+that the good old Genny is just a little too outdated, but bang,
+programming hits a new level and you keep it for another year.  Games
+like SFIISCE keep Sega players happy, and the video game market going.
+
+Judging by the name, you may think it is just the Champion Edition
+standing alone, however just like on the SNES, the Turbo and Hyper
+Fighting options are included.  But unlike the SNES version, the Sega
+version packs a tournament option.
+
+When you first snag this cart of the shelf and plug it in to your
+Genesis, there is simply nothing that is going to fully prepare you
+for what you are going to experience.  Every last animation is here,
+perfectly translated to the Sega format.  Choose from any of the 12
+characters in either of their snazzy uniforms (depending what mode you
+are playing in).  The backgrounds amazingly enough look spectacular
+even in the 64 color display.  The smooth parallax scrolling,
+simulating 3D effect and the soft textured presentation of the
+characters are only a small part of this flickerless phenomenon.
+
+Anyone planning on picking this cart up, should really consider buying
+one of Sega's little 6 button controllers to go with it.  Not only
+does the controller give you true arcade control for a great price
+($20), but it is also the best available controller on the market
+priced under $40.  With the 6 button controller, this is the best
+playing version of the game yet.  Too bad this game was not made
+compatible with Sega's upcoming 4 player adapter, the tournament mode
+would have fit so perfectly.
+
+The tournament mode is a great opportunity for you and your buddies to
+get together and find out who the real champ is.  There are 2 tourney
+options.  The first one allows each person competing to select 6
+different fighters to use.  Whoever wins the most matches is obviously
+the winner.  This mode is great to show up those 1 dimensional players
+who can only use one or two characters.  The second mode, the
+Elimination Mode, allows to select from one to six characters.  You
+fight one round battles and whoever defeats all their opponents first
+wins.
+
+If speed is what you need, you will be exuberantly excited to find out
+that just like the SNES version, this version is actually faster than
+the arcade since you can choose from a total of ten speeds (no code
+necessary this version).
+
+Ahh, there had to be one downer.  The voices.  Although the music is
+pretty good the voices and sound effects were completely horrible.  A
+disappointing con since we have seen a lot of great effects and sounds
+on other previous Genny carts.  I assume this was all due to lack of
+memory.  Even at 24 meg, they ran out of room to improve on the sound,
+but that is ok because the rest of the game is near perfect.
+
+It's finally here folks.  Many thought it would never come, but it did
+and in a big way.  SFIISCE is one of the hottest carts this year on
+the Genesis with amazing graphics, control and speed.  Only thing I
+can say that is wrong with it besides the sound, is that it was based
+on the SNES version, not the arcade.  The characters are small just
+like on the SNES and they did not truly add the Turbo
+backgrounds...however, this is GENESIS!
+
+Instigator - 95
+This has to make you happy.  The Genesis finally has Street Fighter
+and deservedly so.  Capcom makes their first Genesis title and what a
+great entrance.
+
+Mr. Mojo Risin' - 98
+Since when is a Genesis game better than the SNES version? Yup, better
+is right.  The control is just too perfect.  Awesome graphics, super
+fast speed and no code necessary! Turn the volume down though.
+
+Anderson - 95
+
+C:
+What more could you ask for.  The best version of SFII yet! The new
+tournament mode is great and just thinking that this is all done on
+Genesis!
+
+
+        Here's how they stacked up HEAD TO HEAD:
+
+For some nitty gritty comparisons, you should check out our review
+last issue of the SNES version, but here are some of the points we
+came up with.
+
+o The Genesis version is just as fast with no code needed.
+o The characters are animated just as well, and graphics are just as
+  spectacular.
+o The SNES version has a much brighter and colorful appearance and
+  that is hands down a big plus.
+o The sound on the SNES version is great, the voices are ok, but the
+  both the sound and voices on the Genny version rotted!
+o The control was great on both versions.  With the 6 button
+  controller, the Genesis version played better.  Using the 3 button
+  controller, the SNES version played better.  The music was really
+  good on both version, but I have to give the SNES version the edge.
+o Both versions offer small characters, and unfinished backgrounds.
+o The Genesis version offers a great tournament mode not found on any
+  other version.
+
+
++-------------------------------------------------------------------+
+|TITLE:         |PUBLISHER  |GAME TYPE: |SIZE: | AVERAGE OF REVIEWS |
+| Ranger-X      | Sega      | Fighting  |      |0                88 |
+|               |RATING: GA |           |      |*****%%%%%@@@@@###--|
+|---------------+-----------+-----------+------+--------------------|
+|MAIN REVIEW BY:                 OTHER REVIEWERS                    |
+|                                                                   |
+| Aquarius    85          Sr. Jnx    90 Mr. Mojo   92 ---------- ** |
+|                                                                   |
++-------------------------------------------------------------------+
+
+Ranger-X represents what an older concept along with newer technology
+can create and along with it a new realm in video gaming.  Space
+shooters have been used time and time again, but Ranger-X from Gao (a
+new Sega development team) twists the idea along with a side scrolling
+shooter to make a game that is actually original in today's market.
+
+Your character is a huge metal suited figure, equipped with a standard
+blaster and a second weapon which can be switched at any time in the
+game.  This second weapon has it's own power meter which drops when
+it's being used.  An Ex-Up vehicle follows along behind you and can
+become a part of you by standing on it and pressing down to crouch
+inside the vehicle.  While on the Ex-Up you can choose what your
+second weapon is from an assortment of lasers to a flame thrower.  The
+Ex-Up automatically follows your character throughout the level, and
+with the six button controller, you can control it by using the top
+buttons.
+
+Flying is a big part of this game as your main guy can take to the air
+because of the engine hooked up to your back.  The engine is limited
+to just a few seconds of flying, but with practice, hovering in one
+place can make it so you're in the air for longer periods of time.
+Your character and the other motorized attackers all animate very
+fluidly on screen, and the amount of color and parallax scrolling on
+the levels in incredible.  Each level has you going after a series of
+targets that must be destroyed before going onto the boss encounter.
+Some levels have you going on one set path,

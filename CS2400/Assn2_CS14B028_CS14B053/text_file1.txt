@@ -1,0 +1,148 @@
+CS2400: Assignment 1
+Srinidhi Prabhu, CS14B028
+In this assignment, we generate and sample two sinusoidal sig-
+nals, and observe their properties in the frequency domain using
+the Discrete Fourier Transform(DFT). In this process, we study the
+properties and intricacies associated with the DFT.
+A sinusoidal signal is a periodic function, that is, it repeats at
+regular intervals of time. A sinusoid can be written in the form
+y(t) = A sin(ωt + φ)
+where ω is the angular frequency of the sinusoid, t is the time
+at which we want to compute the value of the signal and φ is the
+initial phase.
+Problem 1(a):
+Sampling: To find the samples of a sinusoid, I wrote a program
+which takes the amplitude, angular frequency and one or more sam-
+pling rates as command line arguments. Without loss of generality,
+φ is assumed to be zero. To compute the samples of the signal in
+the time domain, it is sufficient to find the argument for the sine
+function. For the sample number i, the argument would be
+argument =
+ωi
+samplingrate
+This follows because in every second we need to take as many
+samples as the sampling rate. The program first computes the ar-
+gument for each sample. Then the program writes the time at which
+the sample was taken along with the sample value to the file.
+1Observations: When the sampling rate is very large compared
+to the Nyquist rate, the samples obtained have the shape of the
+envelope of the sinusoid.
+Conclusions: The fact that a signal in the time domain can
+be generated error-less when the sampling rate is greater than the
+Nyquist rate is verified. However, if the sampling rate is close to the
+Nyquist rate, the envelope does not seem very clear.
+Frequency of sinusoids from zero crossing rate
+The frequency is defined as the number of times a periodic signal
+repeats in one second. A sinusoid has exactly two zero crossings in
+one period. Therefore, we can compute the frequency of a sinusoid
+from the number of zero crossings per second.
+f =
+Z
+2
+where f is the frequency of the sinusoid and Z is the number of zero
+crossings per second. A zero crossing occurs when a given sample
+2and its previous sample are opposite in sign. By maintaining a
+counter, the number of zero crossings over the 1024 samples can
+be calculated. The number of zero crossings per second can be
+determined by knowing the time interval over which the samples
+have been calculated.
+T 0 = N
+R
+Z = N z
+T 0
+where T 0 is the time interval over which the signal spans, N is the
+number of samples, R is the sampling rate and N z is the total num-
+ber of zero crossings.
+Error in calculating the frequency
+There is a small error involved in calculating the frequency from the
+number of zero crossings. This is because all the samples may not
+cover an integral number of cycles of the sinusoid.
+3Observations: The error in the frequency calculated by number
+of zero crossings depends on how close the samples are to an inte-
+gral multiple of cycles. Hence, the error will not show any pattern
+over the sampling rate. However, if the sampling rate is made very
+large, there will be no zero crossings over the sampled time interval.
+In this case, the calculated frequency would be zero and the error
+would be maximum.
+Problem 1(b):
+Magnitude spectrum of the Fourier Transform
+The magnitude spectrum of the Fourier transform of the sinusoid
+shows two impulses.
+To calculate the frequency of the sinusoid from the Fourier spectrum,
+we make use of the following facts:
+If the signal is time limited for T 0 and sampled at intervals T s in
+the time domain, then the samples in the DFT will be separated
+by a frequency of f 0 and the peaks will be separated by f s in the
+4frequency domain.
+The relation between the parameters in the time domain and those
+in the frequency domain is given by:
+f 0 = 1
+T 0
+f s = 1
+T s
+So, to calculate the frequency of the signal in the time domain, we
+find the difference in the frequencies of the peaks which gives us f s .
+Then we divide this by the number of samples to get f 0 . From f 0 ,
+we can calculate T 0 which gives the time bound in the time domain.
+By knowing the number of zero crossings over this time interval, we
+can calculate the frequency of the signal in the time domain.
+Observations:
+We find that the error is small for smaller values of sampling rate
+and becomes a maximum for sampling rates which are large com-
+pared to the Nyquist rate. The reason for this is similar to that
+obtained from zero crossings in the time domain.
+5Problem 2:
+Addition of sampled signals
+The Fourier transform of the sum of the sampled signal is verified
+to be equal to the sum of the Fourier transforms of the individual
+sampled signals. This verifies the superposition property of Fourier
+transforms. However, as the peaks of the two Fourier transforms do
+not coincide exactly, the magnitude of the peak in the sum is not
+equal to the sum of the peaks in individual signals. We can observe
+two different peaks in the sum signal. Each peak is contributed by
+one signal.
+67Convolution of sampled signals
+The convolution of sampled signals in the time domain transforms
+to the multiplication of the individual Fourier transforms in the
+frequency domain. The convolution of the sampled signals is found
+using the equation:
+w[n] =
+N −1
+m=0
+x[m]h[(n − m)% N]
+To find the Fourier transform of the convolved signal, the size of the
+Fast Fourier Transform(FFT) would be the sum of the sizes of the
+individual sampled signals. Moreover, while finding the individual
+Fourier transforms, the size of each sampled signal should be the
+sum of the individual sizes. This is to avoid wrapping around of the
+convolution.
+8Results
+The convolution of the signals in the time domain transforms to
+multiplication of the individual Fourier transforms in the frequency
+domain. However, as the peaks don’t coincide exactly in the indi-
+vidual spectra we do not get the same Fourier transforms in the two
+cases.
+Two properties of DFT
+Parseval’s Theorem:
+The equation of Parseval’s theorem for a signal which is discrete in
+both time and frequency domains is:
+Results
+The energy calculated from samples in the time domain and that
+calculated from the samples in the frequency domain agreed to a
+high precision.
+9In case of signal 1 plotted above, the energy calculated in the time
+domain was found to be 2042 while in frequency domain it was 2046.
+In case of signal 2 plotted above, the energy calculated in the
+time domain was found to be 8169.52 while in frequency domain it
+was 8169.53.
+Shifting Property:
+Shifting a signal in the time domain is done as follows:
+y[n] = x[(n − n 0 )% N]
+Results
+The magnitude spectrum of the shifted signal in the frequency
+domain is same as that of the original signal. This verifies the shift-
+ing property.
+10References:
+[1] Modern Digital and Analog Communication Systems by B.P.Lathi, 3rd Edition.
+[2] Wikipedia for properties of Discrete Fourier Transform
+11

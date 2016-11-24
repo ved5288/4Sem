@@ -1,0 +1,45 @@
+#import numpy
+import timeit
+import sys
+
+from matrix import mult_mat
+
+m1 = m2 = m3 = 0
+def setup_random(d1, d2, d3):
+  global m1, m2
+  m1 = numpy.random.randint(0, 2, (d1, d2))
+  m2 = numpy.random.randint(0, 2, (d2, d3))
+
+def multiply():
+  global m1, m2, m3
+  m3 = mult_mat(m1, m2)
+
+def check():
+  global m1, m2, m3
+  m = numpy.dot(m1, m2)
+  return(numpy.array_equal(m, m3))
+
+N = 8
+trials = 100
+
+for t in range(N):
+  dim = 2**t
+  print("Dimension range: [%d %d)" % (dim, 2*dim))
+  for i in range(trials):
+    dim1 = numpy.random.randint(dim, 2*dim)
+    dim2 = numpy.random.randint(dim, 2*dim)
+    dim3 = numpy.random.randint(dim, 2*dim)
+
+    setup_random(dim1, dim2, dim3)
+    multiply()
+    if (check() != True):
+      print("Error!\nDimensions: (%d x %d) X (%d x %d)" % (dim1, dim2, dim2, dim3))
+      sys.exit("Program failed!")
+
+print("Success!")
+  # secs = timeit.Timer(lambda: multiply).timeit(number = 100000)
+  # print("dimension %d: time taken %f" % (dim, secs))
+  
+
+# t = Timer(lambda: superMegaIntenseFunction(10))
+# print t.timeit(number=1)
